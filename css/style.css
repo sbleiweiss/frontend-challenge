@@ -13,7 +13,7 @@ body { /* body */
   margin: 0 auto;
   width: 375px;
   height: 667px;
-  background-color: #FFFFFF;
+  background-color: blue;
   overflow: scroll;
 }
 
@@ -46,14 +46,14 @@ h1 { /* bus text */
   padding-left: 62px;
 }
 
-h2 { /*Washington & State text */
+h2 { /* "Washington & State" text */
   font-size: 2em;
   font-weight: bolder;
   font-family: sans-serif;
   color: #2A3346;
   line-height: 50px;
   text-align: left;
-  padding-left: 32px;
+  padding-left: 40px;
 }
 
 
@@ -67,7 +67,7 @@ h4 { /* Contents under each heading */
   text-align: center;
 }
 
-h6 { /* Upcoming buses */
+h6 { /* "Upcoming buses" text */
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bolder;
@@ -75,15 +75,18 @@ h6 { /* Upcoming buses */
   color: #2A3346;
   line-height: 50px;
   text-align: left;
-  padding-left: 32px;
-
+  padding-left: 40px;
+  padding-top: 5px;
+  margin-bottom: -5px;
 }
 
 hr.thin-line {
   border: none;
   border-top: 1px solid #D3D3D3;
   height: 1px;
-  width: 80%;
+  width: 90%;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 
@@ -124,8 +127,6 @@ hr.thin-line {
   background-color: #98CCD3;
   height: 5px;
   width: 5px;
-
-
 }
 
 .line { /* Bus */
