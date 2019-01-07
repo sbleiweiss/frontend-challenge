@@ -39,6 +39,7 @@ h1 { /* bus text */
   width: 68%;
   padding-left: 62px;
 }
+
 h2 { /*Washington & State text */
   font-size: 2em;
   font-weight: bolder;
@@ -49,22 +50,6 @@ h2 { /*Washington & State text */
   padding-left: 32px;
 }
 
-h5 { /* Eastbound, Northbound, Southbound, Reroute, Out of Service */
-  font-size: .9em;
-  font-family: sans-serif;
-  color: #efeff4;
-  opacity: 0.5;
-}
-
-
-h3 { /* Bus, Destination, Arriving */
-  font-size: 1.4em;
-  font-weight: bolder;
-  font-family: sans-serif;
-  color: #2A3346;
-  line-height: 50px;
-  text-align: center;
-}
 
 h4 { /* Contents under each heading */
   font-size: 1.15em;
