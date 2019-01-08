@@ -33,6 +33,27 @@ form {
 margin-left: 40px;
 }
 
+.location-icon {
+  position: absolute;
+  left: -15px;
+  top: 18px;
+}
+
+.input-location-box {
+  position: relative;
+  margin-left: 18px;
+}
+
+.input-destination-box {
+  position: relative;
+  margin-left: 18px;
+}
+
+.destination-icon{
+  position: absolute;
+  left: -14px;
+  bottom: 37px;
+}
 
 h1 { /* bus text */
   text-align: center;
