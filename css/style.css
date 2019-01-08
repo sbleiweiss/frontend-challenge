@@ -36,7 +36,7 @@ margin-left: 40px;
 .location-icon {
   position: absolute;
   left: -15px;
-  top: 18px;
+  top: 19px;
 }
 
 .input-location-box {
@@ -52,7 +52,7 @@ margin-left: 40px;
 .destination-icon{
   position: absolute;
   left: -14px;
-  bottom: 37px;
+  bottom: 38px;
 }
 
 h1 { /* bus text */
