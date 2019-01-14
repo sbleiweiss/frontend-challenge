@@ -86,7 +86,8 @@ h4 { /* Contents */
   line-height: 10px;
   padding-top: 25px;
   padding-bottom: 25px;
-  text-align: center;
+  text-align: left;
+  padding-left: 23px;
 }
 
 h3 { /* Contents for REROUTE */
@@ -96,7 +97,8 @@ h3 { /* Contents for REROUTE */
   line-height: 10px;
   padding-top: 25px;
   padding-bottom: 25px;
-  text-align: center;
+  text-align: left;
+  padding-left: 23px;
 }
 
 h5 { /* Out of Service text*/
@@ -106,7 +108,8 @@ h5 { /* Out of Service text*/
   line-height: 10px;
   padding-top: 25px;
   padding-bottom: 25px;
-  text-align: center;
+  text-align: left;
+  padding-left: 23px;
 }
 
 
@@ -186,20 +189,21 @@ hr.thin-line {
 .frequency { /* Arriving */
   width: 27%;
   display: inline-block;
+  text-align: right;
 }
 
 
 .divider-out-of-service {
   width: 100%;
   background-color: #FFFFFF;
-  text-align: center;
+  text-align: left;
 }
 
 .explanation-out-of-service {
-  width: 60%;
+  width: 45%;
   display: inline-block;
   text-align: center;
-  margin-left: 24px;
+  margin-left: 91px;
 }
 
 .resume-out-of-service {
@@ -211,7 +215,8 @@ hr.thin-line {
   width: 100%;
   background-color: #FFFFFF;
   color: #525256;
-  text-align: center;
+  text-align: left;
+  padding-left: 93px;
 }
 
 .explanation-reroute {
