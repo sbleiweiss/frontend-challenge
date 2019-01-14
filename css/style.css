@@ -9,6 +9,7 @@ body { /* body */
   margin: auto;
 }
 
+
 .container { /* iOS background screen */
   margin: 0 auto;
   width: 375px;
@@ -86,7 +87,8 @@ h4 { /* Contents */
   font-family: sans-serif;
   color: #364E68;
   line-height: 10px;
-  padding-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center;
 }
 
@@ -96,7 +98,8 @@ h3 { /* Contents for REROUTE */
   background-color: #FFFFFF;
   color: #525256;
   line-height: 10px;
-  padding-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center;
 }
 
@@ -106,7 +109,8 @@ h5 { /* Out of Service text*/
   background-color: #FFFFFF;
   color: #E02E24;
   line-height: 10px;
-  padding-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center;
 }
 
@@ -125,6 +129,7 @@ h6 { /* "Upcoming buses" text */
   margin-top: -5px;
 }
 
+
 hr.thin-line {
   border: none;
   border-top: 1px solid #D3D3D3;
@@ -136,30 +141,25 @@ hr.thin-line {
 
 
 .on-schedule { /* normal white background */
-  height: 51px;
-  width: 375px;
+  width: 100%;
   background-color: #FFFFFF;
 }
 
 .out-of-service { /* ORANGE alter background color to show out of service */
-  height: 51px;
-  width: 375px;
+  width: 100%;
   background-color: #FFFFFF;
 }
 
 .reroute { /* DARK GREY EBF0F6; alter background color to show reroute */
-  height: 51px;
-  width: 375px;
+  width: 100%;
   background-color: #FFFFFF;
   padding-top: 2px;
-
 }
-
 
 .statusbar { /* UI top status bar */
   background-color: #98CCD3;
   height: 20px;
-  width: 375px;
+  width: 100%;
   position: inherit;
 }
 
@@ -175,11 +175,12 @@ hr.thin-line {
   width: 5px;
 }
 
-.line { /* Bus */
+.line { /* Bus number */
   width: 25%;
   display: inline-block;
   margin-right: -3px;
   padding-left: 20px;
+  font-weight: bold;
 }
 
 .destination { /* Destination */
@@ -195,10 +196,8 @@ hr.thin-line {
 
 
 .divider-out-of-service {
-  height: 51px;
-  width: 375px;
+  width: 100%;
   background-color: #FFFFFF;
-  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -212,28 +211,24 @@ hr.thin-line {
 .resume-out-of-service {
   width: 10%;
   display: inline-block;
-
 }
 
 .divider-reroute {
-  height: 51px;
-  width: 375px;
+  width: 100%;
   background-color: #FFFFFF;
   color: #525256;
-  padding-bottom: 50px;
   text-align: center;
 }
 
 .explanation-reroute {
    width: 27%;
   display: inline-block;
-
 }
 
 nav { /* Teal nav bar*/
   background-color: #98CCD3;
   height: 175px;
-  width: 375px;
+  width: 100%;
   position: relative;
 }
 
