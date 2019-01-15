@@ -192,6 +192,20 @@ hr.thin-line {
   text-align: right;
 }
 
+.frequency-OOS {
+  display: inline-block;
+  padding-left: 2px;
+}
+
+.frequency-OOS-extra {
+  display: inline-block;
+  padding-left: 6px;
+}
+
+.frequency-reroute {
+  display: inline-block;
+  padding-left: 22px;
+}
 
 .divider-out-of-service {
   width: 100%;
